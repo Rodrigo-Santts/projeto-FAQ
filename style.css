@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    Font-size: 12px;
+    background: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    max-width: 1440px ;
+    height: 642px;
+}
+
+/* section retangolo branco*/
+
+#conteudo-branco{
+    position:relative;
+    top: 40px;
+    left: 15%;
+    width: 70%;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/images/bg-pattern-desktop.svg);
+    border-radius: 10px;
+    text-align: right;
+    overflow: auto;
+    
+}
+ 
+#texto{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 39%;
+    height: 45%;
+    padding: 10px 65px 0px 0px;
+}
+
+#texto h1{
+    font-size: 21pt;
+    padding-left:10px ;
+    padding-top: 10px;
+}
+
+/* parte de titolos do sumario */
+
+.summary-title{
+    font-size: 17px;
+    color: hsla(240, 6%, 13%, 0.616);
+    text-align: left;
+    user-select: none;
+    padding: 0px 15px 0px 10px;
+    margin: 45px 0px 45px 0px;
+    width: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* paragrafos do samario*/
+
+.par-faq{
+    text-align: left;
+    font-size: 10pt;
+    color: hsla(240, 6%, 13%, 0.616);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* formataçao arrow down*/
+
+details summary::-webkit-details-marker{
+    color: hsl(14, 88%, 65%);
+    float: right;
+    
+}
+
+/* imagens block / woman*/
+#mulher-icon{
+    float: left;
+    position: relative;
+    width: 50%;
+    left: -50px;
+    top: 65px;
+    overflow:  hidden;
+
+}
+
+#img-bloco{
+    position: fixed;
+    top: 250px;
+    left: 135px;
+    overflow: hidden;
+}
