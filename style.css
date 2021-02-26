@@ -8,6 +8,14 @@ body{
     height: 642px;
 }
 
+/* formataçao arrow down*/
+
+details summary::-webkit-details-marker{
+    color: hsl(14, 88%, 65%);
+    float: right;   
+}
+
+
 /* section retangolo branco*/
 
 #conteudo-branco{
@@ -15,7 +23,7 @@ body{
     top: 40px;
     left: 15%;
     width: 70%;
-    height: 520px;
+    height: 85%;
     background-color: rgb(255, 255, 255);
     background-image: url(/images/bg-pattern-desktop.svg);
     border-radius: 10px;
@@ -24,6 +32,8 @@ body{
     
 }
  
+/* div texto all */
+
 #texto{
     display: inline-block;
     position: relative;
@@ -39,45 +49,40 @@ body{
     padding-top: 10px;
 }
 
-/* parte de titolos do sumario */
+/* parte de títulos do sumario */
 
 .summary-title{
     font-size: 17px;
-    color: hsla(240, 6%, 13%, 0.616);
+    color: hsla(240, 6%, 13%, 0.788);
     text-align: left;
     user-select: none;
-    padding: 0px 15px 0px 10px;
-    margin: 45px 0px 45px 0px;
+    padding: 5px 10px 5px 5px;
+    margin: 45px 0px 25px 0px;
     width: auto;
     font-family: 'Kumbh Sans', sans-serif;
+    border: none
 }
 
-/* paragrafos do samario*/
+/* parágrafos do samario*/
 
 .par-faq{
     text-align: left;
     font-size: 10pt;
     color: hsla(240, 6%, 13%, 0.616);
     font-family: 'Kumbh Sans', sans-serif;
-}
-
-/* formataçao arrow down*/
-
-details summary::-webkit-details-marker{
-    color: hsl(14, 88%, 65%);
-    float: right;
-    
+    position: relative;
 }
 
 /* imagens block / woman*/
+
 #mulher-icon{
     float: left;
-    position: relative;
+    position: absolute;
     width: 50%;
     left: -50px;
-    top: 65px;
+    top: 12%;
+    bottom: auto;
     overflow:  hidden;
-
 }
 
 #img-bloco{
@@ -85,4 +90,20 @@ details summary::-webkit-details-marker{
     top: 250px;
     left: 135px;
     overflow: hidden;
+}
+ /* formatação do rodapé*/
+#rodape{
+    position: absolute;
+    left: 650px;
+    bottom: 5px;
+}
+
+#rod-t, i{
+    font-size: 12pt;
+    color: rgba(236, 238, 238, 0.705);
+}
+
+i:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
 }
