@@ -5,7 +5,7 @@ body{
     Font-size: 12px;
     background: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     max-width: 1440px ;
-    height: 642px;
+    height: 678px;
 }
 
 /* formataçao arrow down*/
@@ -92,15 +92,22 @@ details summary::-webkit-details-marker{
     overflow: hidden;
 }
  /* formatação do rodapé*/
+
 #rodape{
-    position: absolute;
-    left: 650px;
-    bottom: 5px;
+    display: inline-block;
+   position: relative;
+   font-size: 11px;
+   left: 550px;
+   right: 550px;
+   top: 60px;
 }
 
 #rod-t, i{
     font-size: 12pt;
     color: rgba(236, 238, 238, 0.705);
+    position: relative;
+    text-align: center;
+    
 }
 
 i:hover{
